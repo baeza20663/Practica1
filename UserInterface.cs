@@ -4,29 +4,72 @@
     {
         public static void ShowMainMenu()
         {
-            System.Console.Clear(); // no es ortodoxo pero de momento aquí
-            System.Console.WriteLine("CONTA2");
-            System.Console.WriteLine("------");
-            System.Console.WriteLine("1) Realizar SUMAS de números");
-            System.Console.WriteLine("2) Realizar RESTAS de números");
-            System.Console.WriteLine("3) Realizar DIVISIÓN de números");
-            System.Console.WriteLine("4) Realizar MULTIPLICACIÓN de números");
-            System.Console.WriteLine("5) Realizar FACTORIAL de números");
-            System.Console.WriteLine("6) Realizar ECUACION DE PRIMER GRADO");
-            System.Console.WriteLine("7) Realizar ECUACION DE SEGUNDO GRADO");
-            System.Console.WriteLine("0) SALIR DE LA APLICACIÓN");
+            System.Console.Clear();
+            System.Console.WriteLine("----------------");
+            System.Console.WriteLine(" Menú principal ");
+            System.Console.WriteLine("----------------");
+            System.Console.WriteLine("1) Potencia en base 2");
+            System.Console.WriteLine("2) Sumatorio de un número");
+            System.Console.WriteLine("3) Calcular el factorial de un número");
+            System.Console.WriteLine("4) Saber si un número de primo");
+            System.Console.WriteLine("5) Imprimir la serie de Fibonacci");
+            System.Console.WriteLine("0) Salir del programa");
+        }
+        
+        public static void ShowPow2Menu()
+        {
+            // System.Console.BackgroundColor = System.ConsoleColor.Magenta;
+            // System.Console.ForegroundColor = System.ConsoleColor.White;
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine(" Potencia en base 2 ");
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine("Calcula 2 elevado a un número positivo");
+
         }
         public static void ShowAddMenu()
         {
             // System.Console.BackgroundColor = System.ConsoleColor.Magenta;
             // System.Console.ForegroundColor = System.ConsoleColor.White;
-            System.Console.WriteLine("SUMA");
-            System.Console.WriteLine("------");
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine(" Sumatorio de un número ");
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine("SUMA DE N números positivos");
+
+        }
+        public static void ShowFactorialMenu()
+        {
+            // System.Console.BackgroundColor = System.ConsoleColor.Magenta;
+            // System.Console.ForegroundColor = System.ConsoleColor.White;
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine(" Factorial de un número ");
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine("Calcula el Factorial de número");
+
+        }
+        public static void ShowPrimeMenu()
+        {
+            // System.Console.BackgroundColor = System.ConsoleColor.Magenta;
+            // System.Console.ForegroundColor = System.ConsoleColor.White;
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine(" Potencia en base 2 ");
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine("Calcula 2 elevado a un número positivo");
+
+        }
+        public static void ShowFibonacciMenu()
+        {
+            // System.Console.BackgroundColor = System.ConsoleColor.Magenta;
+            // System.Console.ForegroundColor = System.ConsoleColor.White;
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine(" Potencia en base 2 ");
+            System.Console.WriteLine("------------------------");
+            System.Console.WriteLine("Calcula 2 elevado a un número positivo");
+
         }
         public static void ShowAddSubMenu()
         {
-            System.Console.WriteLine("1) REALIZAR OTRA SUMA");
-            System.Console.WriteLine("0) SALIR DEL MENÚ");
+            System.Console.WriteLine("Pulse ENTER para volver al Menú Principal");
+            
         }
         public static int ReadMenuOption()
         {
